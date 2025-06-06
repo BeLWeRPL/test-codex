@@ -1,0 +1,18 @@
+[
+  {
+    "nazwa": "521",
+    "kolor": "#007940",
+    "przebieg": [
+      [52.23, 21.00],
+      [52.22, 21.05],
+      [52.2044, 21.1643]
+    ],
+    "zdarzenia": [
+      {
+        "typ": "opóźnienie",
+        "opis": "Zator na ul. Patriotów",
+        "wspolrzedne": [52.2044, 21.1643]
+      }
+    ]
+  }
+]
