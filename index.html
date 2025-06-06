@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrala Ruchu vZTM</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Centrala Ruchu vZTM</h1>
+        <nav>
+            <select id="mode-select">
+                <option value="training">Tryb Szkoleniowy</option>
+                <option value="free">Tryb Swobodny</option>
+                <option value="exam">Tryb Egzamin</option>
+            </select>
+        </nav>
+    </header>
+    <main>
+        <div id="map"></div>
+        <aside id="panel">
+            <h2>Zgłoszenia</h2>
+            <ul id="reports"></ul>
+        </aside>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
